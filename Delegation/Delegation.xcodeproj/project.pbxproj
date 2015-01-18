@@ -15,6 +15,7 @@
 		1D185AF11A6B75D800B50DA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D185AF01A6B75D800B50DA5 /* Images.xcassets */; };
 		1D185AF41A6B75D800B50DA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D185AF21A6B75D800B50DA5 /* LaunchScreen.xib */; };
 		1D185B001A6B75D800B50DA5 /* DelegationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D185AFF1A6B75D800B50DA5 /* DelegationTests.m */; };
+		1D185B0B1A6B786000B50DA5 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D185B0A1A6B786000B50DA5 /* TwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		1D185AF91A6B75D800B50DA5 /* DelegationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D185AFE1A6B75D800B50DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D185AFF1A6B75D800B50DA5 /* DelegationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegationTests.m; sourceTree = "<group>"; };
+		1D185B091A6B786000B50DA5 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		1D185B0A1A6B786000B50DA5 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				1D185AE51A6B75D800B50DA5 /* AppDelegate.m */,
 				1D185AEA1A6B75D800B50DA5 /* ViewController.h */,
 				1D185AEB1A6B75D800B50DA5 /* ViewController.m */,
+				1D185B091A6B786000B50DA5 /* TwoViewController.h */,
+				1D185B0A1A6B786000B50DA5 /* TwoViewController.m */,
 				1D185AED1A6B75D800B50DA5 /* Main.storyboard */,
 				1D185AF01A6B75D800B50DA5 /* Images.xcassets */,
 				1D185AF21A6B75D800B50DA5 /* LaunchScreen.xib */,
@@ -225,6 +230,7 @@
 				1D185AE61A6B75D800B50DA5 /* AppDelegate.m in Sources */,
 				1D185AE31A6B75D800B50DA5 /* main.m in Sources */,
 				1D185AEC1A6B75D800B50DA5 /* ViewController.m in Sources */,
+				1D185B0B1A6B786000B50DA5 /* TwoViewController.m in Sources */,
 				1D185AE91A6B75D800B50DA5 /* Delegation.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
