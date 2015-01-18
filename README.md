@@ -1,2 +1,2 @@
-Use-Delegation-to-pass-a-value
+Delegation-Example
 ==============================
