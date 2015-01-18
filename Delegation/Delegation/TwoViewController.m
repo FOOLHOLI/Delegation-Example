@@ -16,6 +16,7 @@
 @end
 
 @implementation TwoViewController
+#warning 不知道為什麼會出現「Method 'setLabelText:' in protocol 'protocolName' not implemented」的訊息
 
 @synthesize delegate;
 
