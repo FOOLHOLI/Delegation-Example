@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TwoViewController : UIViewController
+@protocol protocolName <NSObject>
+
+- (void)setLabelText:(NSString *)string;
+
+@end
+
+@interface TwoViewController : UIViewController <protocolName>
 
 @end

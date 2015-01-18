@@ -10,19 +10,22 @@
 
 @interface TwoViewController ()
 
+@property (weak) id<protocolName> delegate;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
 @end
 
 @implementation TwoViewController
 
+@synthesize delegate;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.label.text = _receiveData;
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)buttonPress:(id)sender {
+    [delegate setLabelText:self.textField.text];
 }
 
 @end
